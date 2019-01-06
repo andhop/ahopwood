@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Permanent+Marker');
+$header_font: 'Permanent Marker', cursive;
+
+$body_font: 'Cutive Mono', monospace;
+$body_font_size: 11px;
+
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family: $body_font;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    .heading {
+        font-family: $header_font;
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+        float:left;
+        clear:left;
+    }
+}
+@import 'nav';
+main{
+    width:100%;
+    box-sizing: border-box;
+    padding:20px;
+}
