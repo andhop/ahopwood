@@ -1,4 +1,5 @@
 <?php $request_uri = explode('?',$_SERVER['REQUEST_URI'],2);
+$title = "Home";
 $host = 'http://localhost:3000';
 switch($request_uri[0]){
     case '/':

@@ -4,7 +4,9 @@ $header_font: 'Permanent Marker', cursive;
 $body_font: 'Cutive Mono', monospace;
 $body_font_size: 11px;
 
-
+*{
+    box-sizing: border-box;
+}
 
 body{
     padding:0;
@@ -22,6 +24,7 @@ header {
         box-sizing: border-box;
         float:left;
         clear:left;
+        color:#79CDCD;
     }
 }
 @import 'nav';

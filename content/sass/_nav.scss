@@ -10,7 +10,19 @@ nav {
             a{
                 display: block;
                 text-align: center;
-            	padding: 3px 5px;
+                padding: 3px 5px;
+                font-size: 25px;
+                color: #79CDCD;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 400ms;
+            }
+
+            a:hover{
+                color: #CD5555;
+            }
+            a.active{
+                color: #FFA824;
             }
         }
     }
