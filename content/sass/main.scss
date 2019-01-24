@@ -3,11 +3,30 @@ $header_font: 'Permanent Marker', cursive;
 
 $body_font: 'Cutive Mono', monospace;
 $body_font_size: 11px;
+$colwidth:100/12;
+
 
 *{
     box-sizing: border-box;
 }
 
+.row::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+.col-1{width: $colwidth * 1%;}
+.col-2{width: ($colwidth * 2) * 1%;}
+.col-3{width: ($colwidth  * 3) * 1%;}
+.col-4{width: ($colwidth * 4) * 1%;}
+.col-5{width: ($colwidth * 5) * 1%;}
+.col-6{width: ($colwidth * 6) * 1%;}
+.col-7{width: ($colwidth * 7) * 1%;}
+.col-8{width: ($colwidth * 8)* 1%;}
+.col-9{width: ($colwidth * 9) * 1%;}
+.col-10{width: ($colwidth * 10) * 1%;}
+.col-11{width: ($colwidth * 11) * 1%;}
+.col-12{width:100%;float:left;}
 body{
     padding:0;
     margin:0;

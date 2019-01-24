@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="./content/css/main.css" />
 </head>
 <body>
-    <header>
-        <h1 class="heading">Andy Hopwood</h1>
-        <nav>
-            <?php include 'parts/nav.php'; ?>
-        </nav>
+
+    <header class="row">
+        <div class="col-12">
+            <h1 class="heading col-4">Andy Hopwood</h1>
+            <nav class="col-5">
+                <?php include 'parts/nav.php'; ?>
+            </nav>
+        </div>
     </header>
-    <main> 
+    <main class="col-10"> 

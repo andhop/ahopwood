@@ -1,16 +1,19 @@
 nav {
     float:right;
     clear:right;
+    
     ul{
         list-style-type: none;
         padding: 0;
         margin: 0;
         li{
             float:left;
+            width: 100/3 * 1%;
             a{
                 display: block;
                 text-align: center;
-                padding: 3px 30px;
+                width: 100%;
+                padding: 3px 0;
                 font-size: 25px;
                 color: #79CDCD;
                 text-decoration: none;

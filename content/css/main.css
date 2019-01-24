@@ -3,6 +3,61 @@
   box-sizing: border-box;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -37,11 +92,13 @@ nav ul {
 }
 nav ul li {
   float: left;
+  width: 33.3333333333%;
 }
 nav ul li a {
   display: block;
   text-align: center;
-  padding: 3px 30px;
+  width: 100%;
+  padding: 3px 0;
   font-size: 25px;
   color: #79CDCD;
   text-decoration: none;
@@ -72,7 +129,7 @@ main {
   font-size: 20px;
 }
 
-@media (max-width: 300px) {
+@media screen and (max-width: 300px) {
   .header {
     float: none;
   }
